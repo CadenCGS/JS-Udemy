@@ -12,7 +12,7 @@
 5 - "4" //1
 10 % 5 //0
 5 % 10 //5
-"Java" + "Script" //"JavaScript"
+"Java" + "Script" //"JavaScript" 
 " " + " " //"  "
 " " + 0 //" 0"
 true + true //2
