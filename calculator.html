@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+
+        function sum(){
+            var firstNumber = prompt("What is the first number: ");
+            var secondNumber = prompt("What is the second number: ");
+            var result = Number(firstNumber) + Number(secondNumber)
+            alert(result);
+        }
+
+        function sub(){
+            var firstNumber = prompt("What is the first number: ");
+            var secondNumber = prompt("What is the second number: ");
+            var result = Number(firstNumber) - Number(secondNumber)
+            alert(result);
+        }
+
+        function div(){
+            var firstNumber = prompt("What is the first number: ");
+            var secondNumber = prompt("What is the second number: ");
+            var result = Number(firstNumber) / Number(secondNumber)
+            alert(result);
+        }
+
+        function mult(){
+            var firstNumber = prompt("What is the first number: ");
+            var secondNumber = prompt("What is the second number: ");
+            var result = Number(firstNumber) * Number(secondNumber)
+            alert(result);
+        }
+
+        var calFunction = prompt("+, -, /, or *: ");
+
+        if (calFunction == "+"){
+            sum();
+        }
+
+        else if (calFunction == "-"){
+            sub();
+        }
+
+        else if (calFunction == "/"){
+            div();
+        }
+
+        else if (calFunction == "*"){
+            mult();
+        }
+
+    </script>    
+</body>
+</html>
